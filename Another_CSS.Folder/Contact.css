@@ -1,0 +1,47 @@
+.contact{
+    margin: 0;
+    padding: 0;
+    height: auto;
+}
+
+section {
+    position: relative;
+}
+.contact-container{
+    position:relative;
+    top: 0;
+    left: 0;
+    color: white;
+    width: 100%;
+    height: 550px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    object-fit: cover;
+}
+
+.contact-container video{
+    position:absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 550px;
+    object-fit: cover;
+}
+
+.contact-container h1{
+    position:absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 550px;
+    padding-top: 100px;
+    font-size: 150px;
+    background: rgba(234, 186, 91, 0.826) ;
+    text-align: center;
+    color: #000000;
+    mix-blend-mode: screen;
+}
+
+
