@@ -1,0 +1,97 @@
+@import url(./Another_CSS.Folder/Premium.css);
+@import url(./Another_CSS.Folder/Font.css);
+@import url(./Another_CSS.Folder/Contact.css);
+@import url(./Another_CSS.Folder/About_Us.css);
+@import url(./Another_CSS.Folder/Event.css);
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* Header */
+    /* Feature Bar */
+.feature_bar{
+    display: flex;
+    background-color: black;
+    background-attachment: fixed;
+    height: 12vh;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 3px solid rgb(94, 92, 88);
+}
+.feature_bar button {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-size: 15px;
+    border-radius: 50px;
+    border: 2px solid rgb(245, 214, 160);
+    width: 100px;
+    height: 40px;
+}
+.feature_bar button:nth-child(1):hover {
+    color:rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+    border: 2px solid rgb(255, 143, 16);
+    transition: transform 0.4s ease;
+    transform: scale(1.20);
+    box-shadow: 3px 12px 30px rgba(251, 241, 218, 0.906);
+
+}
+#home_icon {
+    padding: 20px 2px 15px;
+}
+.feature_bar input {
+    width: 350px;
+    height: 40px;
+    border-radius: 20px;
+    border: 2px solid rgb(194, 185, 170);
+    box-shadow: 10px;
+    font-size: 1.1em;
+    text-align: center;
+}
+
+
+/* Main */
+/* Home Page */
+.image_background{
+    height: 100vh;
+    background-image: url(./Image.Folder/Khmer\ art.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+/* Footer */
+    /* The bottom bar  */
+.bottom_bar{
+    border-top: 3px solid rgb(94, 92, 88);
+    background-color: black;
+    height: 110vh;
+    color: white;
+    justify-items: center;
+}
+.bottom_bar h1, h2, h4, p{
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+}
+.bottom_bar a:link{
+    color: aliceblue;
+    text-decoration: none;
+}
+
+.bottom_bar a:hover{
+    color: rgb(8, 139, 254);
+    text-decoration: none;
+}
+.bottom_bar a:visited{
+    color: rgb(255, 31, 23);
+    text-decoration: none;
+}
+.bottom_bar a:active{
+    color: rgb(36, 237, 9);
+    text-decoration: none;
+}
+.scale_for_logo{
+    scale: 50%;
+}
+
