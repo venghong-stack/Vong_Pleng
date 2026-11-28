@@ -71,3 +71,67 @@
     word-break: break-word; 
     overflow-wrap: break-word;
 }
+/* ---------- Event Calendar ---------- */
+.calendar-section {
+    background-color: black;
+    padding: 40px 5% 60px;
+}
+
+/* Horizontal scroll on small screens */
+.table-container {
+    overflow-x: auto;
+}
+
+.event-calendar {
+    width: 100%;
+    min-width: 500px;
+    border-collapse: collapse;
+    color: #ffffff;
+}
+
+.event-calendar caption {
+    font-size: 1.5em;
+    font-weight: 700;
+    padding-bottom: 15px;
+}
+
+.event-calendar th,
+.event-calendar td {
+    border: 1px solid rgb(230, 165, 54);
+    padding: 10px;
+    text-align: left;
+}
+
+/* Percentage column widths */
+.event-calendar th:nth-child(1) { width: 15%; }
+.event-calendar th:nth-child(2) { width: 10%; }
+.event-calendar th:nth-child(3) { width: 30%; }
+.event-calendar th:nth-child(4) { width: 25%; }
+.event-calendar th:nth-child(5) { width: 20%; }
+
+/* Header */
+.event-calendar thead {
+    background-color: rgb(230, 165, 54);
+    color: #000000;
+    font-weight: 700;
+}
+
+/* Zebra striping */
+.event-calendar tbody tr:nth-child(odd)  { background-color: #1a1a1a; }
+.event-calendar tbody tr:nth-child(even) { background-color: #000000; }
+
+/* Hover highlight */
+.event-calendar tbody tr:hover {
+    background-color: rgb(120, 85, 25);
+}
+
+/* TBA row */
+.event-calendar .tba {
+    font-style: italic;
+}
+
+/* Footer */
+.event-calendar tfoot {
+    font-weight: 700;
+    color: rgb(230, 165, 54);
+}

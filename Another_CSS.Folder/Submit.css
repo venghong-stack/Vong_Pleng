@@ -1,0 +1,30 @@
+body {
+  background-image: url("../Image.Folder/Khmer art.jpeg");
+  min-height: 100vh;
+  margin: 0;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.thank-you-box {
+  width: 100%;
+  max-width: 500px;
+  background-color: rgb(255, 255, 255);
+  padding: 20px;
+  border: 1px solid rgb(204, 204, 204);
+  text-align: center;
+}
+
+.thank-you-box h2 {
+  margin: 0 0 10px 0;
+}
+
+.thank-you-box button {
+  padding: 10px 16px;
+  background-color: rgb(34, 34, 34);
+  color: rgb(255, 255, 255);
+  border: none;
+  cursor: pointer;
+}
