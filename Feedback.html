@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Music Website Feedback & Concerns</title>
+  <link rel="stylesheet" href="Stylesheet.css">
+</head>
+<body class="Feedback">
+  <form action="Submit.html" method="post">
+    <h2>Feedback Form</h2>
+
+    <fieldset>
+      <legend>How Is the Website?</legend>
+
+      <div class="option-group">
+        <input type="radio" id="great" name="website-rating" value="great">
+        <label for="great">Great</label>
+      </div>
+
+      <div class="option-group">
+        <input type="radio" id="okay" name="website-rating" value="okay">
+        <label for="okay">Okay</label>
+      </div>
+
+      <div class="option-group">
+        <input type="radio" id="needs-work" name="website-rating" value="needs-work">
+        <label for="needs-work">Needs work</label>
+      </div>
+    </fieldset>
+
+    <fieldset>
+      <legend>Concerns or Areas to Improve</legend>
+
+      <div class="option-group">
+        <input type="checkbox" id="loading" name="concerns" value="loading">
+        <label for="loading">Slow pages or loading</label>
+      </div>
+
+      <div class="option-group">
+        <input type="checkbox" id="navigation" name="concerns" value="navigation">
+        <label for="navigation">Hard to find music or pages</label>
+      </div>
+
+      <div class="option-group">
+        <input type="checkbox" id="playback" name="concerns" value="playback">
+        <label for="playback">Playback or audio issues</label>
+      </div>
+
+      <div class="option-group">
+        <input type="checkbox" id="layout" name="concerns" value="layout">
+        <label for="layout">Layout or display issues</label>
+      </div>
+    </fieldset>
+
+    <div class="form-group">
+      <label for="topic">Main Topic:</label>
+      <select id="topic" name="topic">
+        <option value="overall">Overall website experience</option>
+        <option value="concern">Report a concern or bug</option>
+        <option value="suggestion">Suggestion for the site</option>
+      </select>
+    </div>
+
+    <div class="form-group">
+      <label for="comments">Feedback or Concerns:</label>
+      <textarea id="comments" name="comments"></textarea>
+    </div>
+
+    <div class="option-group">
+      <input type="checkbox" id="followup" name="followup" value="yes">
+      <label for="followup">Contact me about my feedback or concern</label>
+    </div>
+
+    <button type="submit">Submit</button>
+    <a href="./Home.html"><button type="button">Back to Home</button></a>
+  </form>
+</body>
+</html>

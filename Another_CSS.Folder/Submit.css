@@ -1,4 +1,4 @@
-body {
+body.Submit {
   background-image: url("../Image.Folder/Khmer art.jpeg");
   min-height: 100vh;
   margin: 0;
@@ -18,6 +18,11 @@ body {
 }
 
 .thank-you-box h2 {
+  color: rgb(34, 34, 34);
+  margin: 0 0 10px 0;
+}
+.thank-you-box p {
+  color: rgb(34, 34, 34);
   margin: 0 0 10px 0;
 }
 
